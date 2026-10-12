@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 Fix the converter</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <style>
+        img {
+            height: 75px;
+            border: 1px solid;
+        }
+        div {
+            display: flex;
+        }
+    </style>
+
+    <div>
+        <img
+            alt=""
+            src="https://sandpack-bundler.vercel.app/img/architecture-christian-perner.jpg"
+        />
+        <img
+            alt=""
+            src="https://sandpack-bundler.vercel.app/img/architecture-grant-lemons.jpg"
+        />
+        <img
+            alt=""
+            src="https://sandpack-bundler.vercel.app/img/architecture-hugo-sousa.jpg"
+        />
+    </div>
+
+    <!-- We have to remove the indentation if we do not want to have any
+     whitespace between images 
+     
+     Or we can set on the div the `display:flex`, since flex removes
+     all whitespaces and indentation
+     -->
+
+    <script type="module" src="index.jsx"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.formatOnSave": false,
+		"files.trimTrailingWhitespace": true,
+		"liveServer.settings.donotShowInfoMsg": true
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver",
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode"
+		]
+	}
+}
