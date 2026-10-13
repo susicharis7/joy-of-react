@@ -1,0 +1,11 @@
+function Friend({ name, isOnline }) {
+    const style = isOnline ? undefined : { display: 'none' };
+
+    return(
+        <li>
+            <div className="green-dot" style={style} />
+            {name}
+        </li>
+    );
+}
+export default Friend;
