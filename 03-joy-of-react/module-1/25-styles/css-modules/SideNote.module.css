@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 320px;
+    padding: 1rem 1.25rem;
+    background: #fff8e1;
+    border-left: 4px solid #f5a623;
+    border-radius: 4px;
+}
+
+.title {
+    margin: 0 0 0 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #8a5a00;
+}
