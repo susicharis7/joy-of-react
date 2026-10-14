@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 2rem;
+}
+
+.grid {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    /* overlap the borders so shared edges are 1px, not 2px */
+    margin: 0 -1px -1px 0;
+}
