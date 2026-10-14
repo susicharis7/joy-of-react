@@ -1,0 +1,17 @@
+import Sidenote from "./Sidenote";
+
+function App() {
+    return (
+        <>
+         <Sidenote type="notice" title="This is a notice">
+            Hello World
+         </Sidenote>
+
+         <Sidenote type="success" title="This is a success">
+            Yay!
+         </Sidenote>
+        </>
+    );
+}
+
+export default App;

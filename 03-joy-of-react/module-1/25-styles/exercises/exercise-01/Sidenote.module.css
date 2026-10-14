@@ -1,0 +1,42 @@
+/* shared styles: every sidenote gets these */
+.wrapper {
+    max-width: 420px;
+    margin: 0 0 1rem;
+    padding: 1rem 1.25rem;
+    border-left: 4px solid;
+    border-radius: 4px;
+}
+
+.wrapper h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+}
+
+.wrapper p {
+    margin: 0;
+}
+
+/* type styles: only the colors change */
+.notice {
+    background: #e8eefc;
+    border-color: #5b7cfa;
+    color: #1d2b5c;
+}
+
+.warning {
+    background: #fff4d6;
+    border-color: #f5a623;
+    color: #5c3d00;
+}
+
+.error {
+    background: #fde4ea;
+    border-color: #e5365b;
+    color: #5c0f22;
+}
+
+.success {
+    background: #dcf5ea;
+    border-color: #1fb178;
+    color: #0b3d28;
+}
